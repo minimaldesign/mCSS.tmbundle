@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>border-left-style: ${1:none/hidden/dotted/dashed/solid/double/groove/ridge/inset/outset};$0</string>
+	<key>name</key>
+	<string>border-left-style: style</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>bls</string>
+	<key>uuid</key>
+	<string>C4BBA5B3-0B9E-4695-95F0-5BBFB247C180</string>
+</dict>
+</plist>

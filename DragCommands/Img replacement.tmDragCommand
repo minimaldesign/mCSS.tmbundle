@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleUUID</key>
+	<string>4675F24E-6227-11D9-BFB1-000D93589AF6</string>
+	<key>command</key>
+	<string>echo -ne "\${1:#selector} {\n"
+sips -g pixelWidth "$TM_DROPPED_FILE"|awk '/pixelWidth/  { printf("	width: %dpx;",  $2) }'
+echo -ne "\n	height: 0;\n	font-size: 1em;\n"
+sips -g pixelHeight "$TM_DROPPED_FILE"|awk '/pixelHeight/ { printf("	padding-top: %dpx;", $2) }'
+echo -ne "\n	text-indent: -2000px;\n	overflow: hidden;"
+echo -ne "\n	background: url('\${2:$TM_DROPPED_FILE}') no-repeat;\n}\$0"</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>png</string>
+		<string>jpeg</string>
+		<string>jpg</string>
+		<string>gif</string>
+	</array>
+	<key>name</key>
+	<string>Img replacement</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>uuid</key>
+	<string>D6D0BEB2-DF32-4762-ABC1-3465116C220A</string>
+</dict>
+</plist>

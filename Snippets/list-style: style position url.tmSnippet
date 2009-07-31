@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>list-style: ${1:none/disc/circle/square/decimal/decimal-leading-zero/lower-roman/upper-roman/lower-alpha/upper-alpha/lower-greek/lower-latin/upper-latin/hebrew/armenian/georgian/cjk-ideographic/hiragana/katakana/hiragana-iroha/katakana-iroha} ${2:inside}${3:outside} ${4:url($5)};$0</string>
+	<key>name</key>
+	<string>list-style: style position url</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ls</string>
+	<key>uuid</key>
+	<string>E7572D29-98C2-481C-8EEE-F72A786CB25F</string>
+</dict>
+</plist>

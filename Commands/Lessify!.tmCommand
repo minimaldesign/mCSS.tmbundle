@@ -5,17 +5,18 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string># just to remind you of some useful environment variables
-# see Help / Environment Variables for the full list
-echo File: "$TM_FILEPATH"
-echo Word: "$TM_CURRENT_WORD"
-echo Selection: "$TM_SELECTED_TEXT"</string>
+	<string>#!/bin/bash
+
+lessc "$TM_FILEPATH"
+rescan_project</string>
 	<key>input</key>
-	<string>selection</string>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^L</string>
 	<key>name</key>
 	<string>Lessify!</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>discard</string>
 	<key>uuid</key>
 	<string>C06F4F5E-AF7F-4C65-8B4B-0FDF41F1BC27</string>
 </dict>

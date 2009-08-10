@@ -3,20 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>nop</string>
+	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>#!/bin/bash
+	<string>file=$(basename "$TM_FILEPATH")
+ext=${file##*.}
+file=${file%.*}
+new_file="$TM_PROJECT_DIRECTORY"/"$CSS_DIR"/"$file".css
 
-lessc "$TM_FILEPATH"
+lessc "$TM_FILEPATH" "$new_file"
 rescan_project</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^L</string>
+	<string>~@l</string>
 	<key>name</key>
-	<string>Lessify!</string>
+	<string>less -&gt; css</string>
 	<key>output</key>
 	<string>discard</string>
+	<key>scope</key>
+	<string>source.css</string>
 	<key>uuid</key>
 	<string>C06F4F5E-AF7F-4C65-8B4B-0FDF41F1BC27</string>
 </dict>

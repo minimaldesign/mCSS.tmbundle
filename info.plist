@@ -92,6 +92,8 @@
 			<string>C005BA9D-91F1-439D-92FB-FC554BDD6BF6</string>
 			<string>5BB0B920-8EFE-4E74-B90B-5963200DFDA5</string>
 			<string>F304E7C3-432F-4933-BA19-C1A5A010B60B</string>
+			<string>B319C231-BBB3-4359-BF0C-4E8883749A93</string>
+			<string>815DB42F-FF75-45D1-A477-FCA5754F10D3</string>
 		</array>
 		<key>items</key>
 		<array>
@@ -117,6 +119,8 @@
 			<string>809C0EA0-6E1E-4634-B402-567D25034F04</string>
 			<string>------------------------------------</string>
 			<string>86D3FBF2-6BEC-4F11-AC5A-5C46A224032F</string>
+			<string>C06F4F5E-AF7F-4C65-8B4B-0FDF41F1BC27</string>
+			<string>FC73E843-A683-44FD-ADE4-45049DAC14C6</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -146,8 +150,8 @@
 					<string>00E49655-1B84-44E2-99A9-3551AE780EBE</string>
 					<string>9E1D9A03-602D-4003-A487-5973B90ED9BD</string>
 					<string>------------------------------------</string>
-					<string>B319C231-BBB3-4359-BF0C-4E8883749A93</string>
 					<string>D8351DBD-ABD5-4260-B66E-308E943D57B5</string>
+					<string>999238AE-A866-494D-9A02-DC7ABDF41A82</string>
 					<string>C016260F-6F05-4888-9D9A-32801547074C</string>
 					<string>11B3AF3A-E77D-4D95-8BF0-E66002B1AF28</string>
 					<string>------------------------------------</string>
@@ -638,6 +642,7 @@
 		<string>F7C85AB0-549A-4BEC-A3FB-9C011E9A3CF0</string>
 		<string>D61741B5-0B66-4F3B-B932-A92000F4770F</string>
 		<string>074FDB0B-CB14-4EFE-A05B-6D9466D47AF8</string>
+		<string>999238AE-A866-494D-9A02-DC7ABDF41A82</string>
 		<string>B319C231-BBB3-4359-BF0C-4E8883749A93</string>
 		<string>D8351DBD-ABD5-4260-B66E-308E943D57B5</string>
 		<string>00E49655-1B84-44E2-99A9-3551AE780EBE</string>
@@ -760,6 +765,7 @@
 		<string>460D4880-3937-46CB-A546-432DEA220B51</string>
 		<string>C016260F-6F05-4888-9D9A-32801547074C</string>
 		<string>11B3AF3A-E77D-4D95-8BF0-E66002B1AF28</string>
+		<string>815DB42F-FF75-45D1-A477-FCA5754F10D3</string>
 		<string>78BA52A1-6539-4EAD-8652-36534A88F143</string>
 		<string>70E14B2B-4EE3-41C9-A74B-F23B4954C915</string>
 		<string>3CDEC63C-E880-4A63-AE3A-33DA2BF8A387</string>

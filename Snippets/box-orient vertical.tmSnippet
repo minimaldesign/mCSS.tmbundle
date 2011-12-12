@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-box-orient: vertical;
+-moz-box-orient: vertical;
+box-orient: vertical;$0</string>
+	<key>name</key>
+	<string>box-orient vertical</string>
+	<key>tabTrigger</key>
+	<string>bo</string>
+	<key>uuid</key>
+	<string>20A9AC86-0A1E-4089-9147-484A30FA133B</string>
+</dict>
+</plist>

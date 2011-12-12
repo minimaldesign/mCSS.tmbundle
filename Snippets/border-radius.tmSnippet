@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-border-radius: ${1:5}px;
+-moz-border-radius: ${1:5}px;
+border-radius: ${1:5}px;
+${2:behavior: url(_css/PIE.htc);}$0</string>
+	<key>name</key>
+	<string>border-radius</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>3br</string>
+	<key>uuid</key>
+	<string>8FDC70E3-1468-45E7-999E-C4E054A49DD1</string>
+</dict>
+</plist>

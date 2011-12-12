@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>::-moz-selection { background: #${1:ff0}; color: #${2:000}; text-shadow: none; }
+::selection { background: #${1:ff0}; color: #${2:000}; text-shadow: none; }$0</string>
+	<key>name</key>
+	<string>selection</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>:s</string>
+	<key>uuid</key>
+	<string>134CAAFA-107D-4727-9FFC-64AAD7CE2651</string>
+</dict>
+</plist>

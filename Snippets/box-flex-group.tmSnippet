@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-moz-box-flex-group: ${1:1};
+-webkit-box-flex-group: ${1:1};
+box-flex-group: ${1:1};	$0</string>
+	<key>name</key>
+	<string>box-flex-group</string>
+	<key>tabTrigger</key>
+	<string>bfg</string>
+	<key>uuid</key>
+	<string>079040A7-D47C-45D6-AE79-F7D7730E6BD8</string>
+</dict>
+</plist>

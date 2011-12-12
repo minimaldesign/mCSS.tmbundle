@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>:nth-last-child(${1:2n+1})$0</string>
+	<key>name</key>
+	<string>nth-last-child()</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>:nlc</string>
+	<key>uuid</key>
+	<string>1BED5D9B-CE81-42A2-A65C-2F293CC14726</string>
+</dict>
+</plist>

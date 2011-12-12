@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>background: -webkit-gradient(linear, left top, left bottom, from(#${1:fff}), to(#${2:ccc}));
+background: -moz-linear-gradient(center top, #${1}, #${2});
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#${1}', endColorstr='#${2}');$0</string>
+	<key>name</key>
+	<string>background: gradient (linear)</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>bgg</string>
+	<key>uuid</key>
+	<string>185AC00E-7D3B-4A04-A2D4-075556CA3982</string>
+</dict>
+</plist>

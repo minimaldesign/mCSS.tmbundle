@@ -9,7 +9,7 @@
 sips -g pixelWidth "$TM_DROPPED_FILE"|awk '/pixelWidth/  { printf("	width: %dpx;",  $2) }'
 echo -ne "\n	height: 0;\n	font-size: 1em;\n"
 sips -g pixelHeight "$TM_DROPPED_FILE"|awk '/pixelHeight/ { printf("	padding-top: %dpx;", $2) }'
-echo -ne "\n	text-indent: -2000px;\n	overflow: hidden;"
+echo -ne "\n	text-indent: 100%;\n	white-space: nowrap;\n	overflow: hidden;"
 echo -ne "\n	background: url('\${2:$TM_DROPPED_FILE}') no-repeat;\n}\$0"</string>
 	<key>draggedFileExtensions</key>
 	<array>

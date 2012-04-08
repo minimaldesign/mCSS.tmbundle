@@ -7,6 +7,8 @@
 		<string>css</string>
 		<string>css.erb</string>
 		<string>less</string>
+		<string>scss</string>
+		<string>sass</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>/\*\*(?!\*)|\{\s*($|/\*(?!.*?\*/.*\S))</string>
